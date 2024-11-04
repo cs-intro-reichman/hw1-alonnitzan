@@ -14,7 +14,7 @@ public class Bill3 {
 		price_to_pay = Math.ceil(price_to_pay / 3);
 		
 		// print the ouput
-		System.out.println("Dear " + name1 + ", " + name2 + ", and " + name3 + ": pay " +
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " +
 								price_to_pay + " Shekels each.");
 	    
 	}
