@@ -1,6 +1,6 @@
 // Computes the future value of a saving investment.
 public class FVCalc {
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		
 		// All of the varriables that given as an input
 		int currentValue = Integer.parseInt(args[0]);

@@ -7,15 +7,15 @@ public class Bill3 {
 		String name2 = args[1];
 	    String name3 = args[2];
 	    // Convert the string to integer 
-		int total_price = Integer.parseInt(args[3]);
+		int totalPrice = Integer.parseInt(args[3]);
 
 		// Convert the total_price to double, divide it to 3 and ceil the price
-		double price_to_pay = total_price;
-		price_to_pay = Math.ceil(price_to_pay / 3);
+		double priceToPay = totalPrice;
+		priceToPay = Math.ceil(priceToPay / 3);
 		
 		// print the ouput
 		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " +
-								price_to_pay + " Shekels each.");
+						   priceToPay + " Shekels each.");
 	    
 	}
 }
