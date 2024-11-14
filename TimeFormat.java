@@ -2,8 +2,8 @@
 public class TimeFormat {
 	public static void main(String[] args) {
 		
-		// The following statement handles the hours part of the input.
-		// It concatenates the empty string "" with the leftmost hour-digit. 
+		// The following statement handles the hours part of the input
+		// It concatenates the empty string "" with the leftmost hour-digit
 		// It then concatenates the resulting string with the rightmost hour-digit,
 		// and then uses parseInt to cast the resulting string as an int.
 		int hours = Integer.parseInt("" + args[0].charAt(0) + args[0].charAt(1));
@@ -13,7 +13,7 @@ public class TimeFormat {
 		String timeLabel = "";
 
 		// Checks if the hour should be AM or PM
-		if(hours < 12){
+		if (hours < 12){
 			timeLabel = "AM";
 		}
 		else{
